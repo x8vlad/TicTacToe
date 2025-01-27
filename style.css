@@ -1,0 +1,30 @@
+body{
+    font-family: Arial, sans-serif; 
+    font-size: 1em;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0;
+    background-color: #f3f4f6; 
+}
+.block{
+    display: grid;
+    grid-template-columns: repeat(3, 120px);
+    background-color: #fff; 
+    margin-bottom: 20px;
+    margin: 0;
+    gap: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;  
+} 
+.block div{
+    width: 120px; 
+    height: 120px; 
+    background-color: #eaeaea;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em; 
+}
